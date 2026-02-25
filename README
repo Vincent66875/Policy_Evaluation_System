@@ -1,98 +1,47 @@
-#🚀 Persona Research Environment Setup
+🚀 Persona Research Environment Setup
 
-This repository contains the scripts and configuration needed to evaluate privacy policies using LLMs on the **Clemson Palmetto Cluster**. We utilize **Anaconda** and **Scratch Space** to ensure high performance and bypass home directory storage limits.
+This repository contains the scripts and configuration needed to evaluate privacy policies using LLMs on the Clemson Palmetto Cluster. We utilize Anaconda and Scratch Space to ensure high performance and bypass home directory storage limits.
 
-##📋 Prerequisites
+📋 Prerequisites
 
 Before starting, ensure you have:
 
-1. A **Palmetto account** and an active session on a compute node.
-2. A `requirements.txt` file in your project directory containing:
-```text
+A Palmetto account and an active session on a compute node.
+
+A requirements.txt file in your project directory containing:
+
 langchain
 langchain-ollama
 langchain-community
 pandas
 httpx
+🛠️ Initial Installation
 
+Run the setup script to build your isolated Python 3.10 environment in the 5TB /scratch zone. This keeps your /home directory clean and avoids quota issues.
 
-## 🛠️ Initial Installation
-
-Run the setup script to build your isolated Python 3.10 environment in the 5TB `/scratch` zone. This keeps your `/home` directory clean and avoids quota issues.
-
-1. **Give permission to the setup file:**
-```bash
+1️⃣ Give permission to the setup file:
 chmod +x setup_research.sh
-
-```
-
-
-2. **Run the setup:**
-```bash
+2️⃣ Run the setup:
 ./setup_research.sh
 
-```
+Note: This script automatically loads anaconda3/2023.09-0 and creates the environment at /scratch/$USER/persona_env.
 
-
-
-> **Note:** This script automatically loads `anaconda3/2023.09-0` and creates the environment at `/scratch/$USER/persona_env`.
-
----
-
-## ⚡ Quick Access (Daily Use)
+⚡ Quick Access (Daily Use)
 
 You don't need to run the setup script every time. Once the environment is built, use this shortcut to enter it instantly.
 
-### 1. Set up the Alias (Run Once)
+1️⃣ Set up the Alias (Run Once)
 
-Run this command once to create the `start_persona` shortcut in your bash configuration:
+Run this command once to create the start_persona shortcut in your bash configuration:
 
-```bash
 echo "alias start_persona='module load anaconda3/2023.09-0 && source activate /scratch/\$USER/persona_env'" >> ~/.bashrc
 source ~/.bashrc
-
-```
-
-### 2. Activate Environment
+2️⃣ Activate Environment
 
 Whenever you log in to a compute node, simply type:
 
-```bash
 start_persona
 
-```
+You will know it worked when your terminal prompt starts with:
 
-You will know it worked when your terminal prompt starts with `(/scratch/yourname/persona_env)`.
-
----
-
-## 📊 Dataset: OPP-115
-
-This system is designed to evaluate the **OPP-115 (Online Privacy Policies)** dataset.
-
-1. **Download:** Users must download the dataset themselves from the official source or project repository.
-2. **Organization:** Place the `.txt` policy files in a directory named `sanitized_policies/` within your project root for compatibility with the evaluation scripts.
-
----
-
-## 📂 Project Addresses
-
-| Component | Location | Purpose |
-| --- | --- | --- |
-| **Scripts & Data** | `/home/$USER/pp/` | Permanent storage for code and research results. |
-| **Python Env** | `/scratch/$USER/persona_env/` | The "toolbox" (Python 3.10, LangChain). |
-| **LLM Models** | `/scratch/$USER/ollama_models/` | Storage for heavy model weights (Llama 3, etc.). |
-
----
-
-## 🔧 Troubleshooting
-
-* **`EnvironmentLocationNotFound`**: This usually means the folder was deleted or created with `venv` instead of `conda`. Re-run `./setup_research.sh`.
-* **`ModuleNotFoundError`**: Ensure you have run `start_persona` before executing your Python scripts.
-* **Ollama Connection**: Ensure the Ollama server is running in the background (`ollama serve &`) before running evaluations.
-
-**Would you like me to add a section on how to pull the specific Llama or Gemma models into the scratch directory?**
-
-
-**Now the system uses OPP-115 dataset, please download it by yourself.**
----
+(/scratch/yourname/persona_env)
