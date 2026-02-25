@@ -1,0 +1,58 @@
+## 📋 Prerequisites
+
+Before starting, ensure you have:
+
+1. A **Palmetto account** and access to a compute node.
+2. A `requirements.txt` file in your project directory containing:
+```text
+langchain
+langchain-ollama
+langchain-community
+pandas
+httpx
+```
+
+## 🛠️ Initial Installation
+
+Run the setup script to build your isolated Python 3.10 environment in the 5TB `/scratch` zone.
+
+1. **Give permission to setup file**
+```bash
+chmod +x setup_research.sh
+```
+
+2. **Run the setup:**
+```bash
+./setup_research.sh
+
+```
+
+> **Note:** This script automatically loads `anaconda3/2023.09-0` and creates the environment at `/scratch/$USER/persona_env`.
+
+---
+
+## ⚡ Quick Access (Daily Use)
+
+You don't need to run the setup script every time. To enter the environment quickly, add a shortcut to your system.
+
+### 1. Set up the Alias
+
+Run this command **once** to create the `start_persona` shortcut:
+
+```bash
+echo "alias start_persona='module load anaconda3/2023.09-0 && source activate /scratch/\$USER/persona_env'" >> ~/.bashrc
+source ~/.bashrc
+
+```
+
+### 2. Activate Environment
+
+Whenever you log in to a compute node, simply type:
+
+```bash
+start_persona
+
+```
+
+Now the system uses OPP-115 dataset, please download it by yourself.
+---
