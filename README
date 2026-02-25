@@ -1,7 +1,3 @@
-This version is optimized for **GitHub Markdown** display, including a clear structure, code blocks, and a dedicated section for the OPP-115 dataset.
-
----
-
 # 🚀 Persona Research Environment Setup
 
 This repository contains the scripts and configuration needed to evaluate privacy policies using LLMs on the **Clemson Palmetto Cluster**. We utilize **Anaconda** and **Scratch Space** to ensure high performance and bypass home directory storage limits.
@@ -18,9 +14,6 @@ langchain-ollama
 langchain-community
 pandas
 httpx
-
-```
-
 
 
 ## 🛠️ Initial Installation
