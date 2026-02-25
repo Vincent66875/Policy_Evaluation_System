@@ -1,58 +1,44 @@
-## 📋 Prerequisites
-
+📋 Prerequisites
 Before starting, ensure you have:
 
-1. A **Palmetto account** and access to a compute node.
-2. A `requirements.txt` file in your project directory containing:
-```text
+A Palmetto account and an active session on a compute node.
+
+A requirements.txt file in your project directory containing:
+
+Plaintext
 langchain
 langchain-ollama
 langchain-community
 pandas
 httpx
-```
+🛠️ Initial Installation
+Run the setup script to build your isolated Python 3.10 environment in the 5TB /scratch zone. This keeps your /home directory clean and avoids quota issues.
 
-## 🛠️ Initial Installation
+Give permission to the setup file:
 
-Run the setup script to build your isolated Python 3.10 environment in the 5TB `/scratch` zone.
-
-1. **Give permission to setup file**
-```bash
+Bash
 chmod +x setup_research.sh
-```
+Run the setup:
 
-2. **Run the setup:**
-```bash
+Bash
 ./setup_research.sh
+Note: This script automatically loads anaconda3/2023.09-0 and creates the environment at /scratch/$USER/persona_env.
 
-```
+⚡ Quick Access (Daily Use)
+You don't need to run the setup script every time. Once the environment is built, use this shortcut to enter it instantly.
 
-> **Note:** This script automatically loads `anaconda3/2023.09-0` and creates the environment at `/scratch/$USER/persona_env`.
+1. Set up the Alias (Run Once)
+Run this command once to create the start_persona shortcut in your bash configuration:
 
----
-
-## ⚡ Quick Access (Daily Use)
-
-You don't need to run the setup script every time. To enter the environment quickly, add a shortcut to your system.
-
-### 1. Set up the Alias
-
-Run this command **once** to create the `start_persona` shortcut:
-
-```bash
+Bash
 echo "alias start_persona='module load anaconda3/2023.09-0 && source activate /scratch/\$USER/persona_env'" >> ~/.bashrc
 source ~/.bashrc
-
-```
-
-### 2. Activate Environment
-
+2. Activate Environment
 Whenever you log in to a compute node, simply type:
 
-```bash
+Bash
 start_persona
-
-```
+You will know it worked when your terminal prompt starts with (/scratch/yourname/persona_env).
 
 Now the system uses OPP-115 dataset, please download it by yourself.
 ---
