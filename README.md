@@ -91,7 +91,4 @@ This system is designed to evaluate the **OPP-115 (Online Privacy Policies)** da
 * **`ModuleNotFoundError`**: Ensure you have run `start_persona` before executing your Python scripts.
 * **Ollama Connection**: Ensure the Ollama server is running in the background (`ollama serve &`) before running evaluations.
 
-**Would you like me to add a section on how to pull the specific Llama or Gemma models into the scratch directory?**
-
-
 **Now the system uses OPP-115 dataset, please download it by yourself.**
