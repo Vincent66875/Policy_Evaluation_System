@@ -1,94 +1,48 @@
-#🚀 Persona Research Environment Setup
+# Privacy Policy Persona Simulator
 
-This repository contains the scripts and configuration needed to evaluate privacy policies using LLMs on the **Clemson Palmetto Cluster**. We utilize **Anaconda** and **Scratch Space** to ensure high performance and bypass home directory storage limits.
-
-##📋 Prerequisites
-
-Before starting, ensure you have:
-
-1. A **Palmetto account** and an active session on a compute node.
-2. A `requirements.txt` file in your project directory containing:
-```text
-langchain
-langchain-ollama
-langchain-community
-pandas
-httpx
-
-
-## 🛠️ Initial Installation
-
-Run the setup script to build your isolated Python 3.10 environment in the 5TB `/scratch` zone. This keeps your `/home` directory clean and avoids quota issues.
-
-1. **Give permission to the setup file:**
-```bash
-chmod +x setup_research.sh
-
-```
-
-
-2. **Run the setup:**
-```bash
-./setup_research.sh
-
-```
-
-
-
-> **Note:** This script automatically loads `anaconda3/2023.09-0` and creates the environment at `/scratch/$USER/persona_env`.
+This program is a **human-centric simulation engine** designed to evaluate the understandability of privacy policies. Unlike standard LLM benchmarks that aim for perfect accuracy, this tool uses **Persona-Based Prompting** and **Stochastic Bias Layers** to mimic how different demographic groups perceive and misinterpret legal jargon.
 
 ---
 
-## ⚡ Quick Access (Daily Use)
+## 🚀 Key Features
 
-You don't need to run the setup script every time. Once the environment is built, use this shortcut to enter it instantly.
+* **Multi-Persona Modeling**: Simulates three distinct archetypes:
+    * **Expert**: High technical literacy, precise reading.
+    * **Human Avg**: Average literacy; prone to skimming and missing nuances.
+    * **Non-Expert Seniors**: Cautious readers easily overwhelmed by jargon.
+* **Cognitive Bias Simulation**: Implements human-like flaws including:
+    * **Jargon Penalty**: Non-experts struggle with terms like "ISO27001".
+    * **Skimming Bias**: Models how users focus on headings while ignoring fine print.
+    * **Uncertainty/Omission**: Simulates the tendency to choose "Cannot be determined" when confused.
+* **Dynamic Memory Stream**: Personas "remember" previous reflections, allowing for consistent behavior across trials.
+* **Perceptual Masking**: Automatically "fuzzes" technical terms for non-experts (e.g., changing "ISO27001" to "a technical code") to simulate real-world comprehension gaps.
 
-### 1. Set up the Alias (Run Once)
+---
 
-Run this command once to create the `start_persona` shortcut in your bash configuration:
+## 🛠️ Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/yourusername/persona-simulator.git](https://github.com/yourusername/persona-simulator.git)
+    cd persona-simulator
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pip install openai
+    ```
+
+3.  **Set up Environment Variables**:
+    ```bash
+    export OPENAI_API_KEY='your-api-key-here'
+    # Optional: export OPENAI_MODEL='gpt-4o'
+    ```
+
+---
+
+## 💻 Usage
+
+Run the simulation via the command line. You can specify the number of trials and the random seed for reproducibility.
 
 ```bash
-echo "alias start_persona='module load anaconda3/2023.09-0 && source activate /scratch/\$USER/persona_env'" >> ~/.bashrc
-source ~/.bashrc
-
-```
-
-### 2. Activate Environment
-
-Whenever you log in to a compute node, simply type:
-
-```bash
-start_persona
-
-```
-
-You will know it worked when your terminal prompt starts with `(/scratch/yourname/persona_env)`.
-
----
-
-## 📊 Dataset: OPP-115
-
-This system is designed to evaluate the **OPP-115 (Online Privacy Policies)** dataset.
-
-1. **Download:** Users must download the dataset themselves from the official source or project repository.
-2. **Organization:** Place the `.txt` policy files in a directory named `sanitized_policies/` within your project root for compatibility with the evaluation scripts.
-
----
-
-## 📂 Project Addresses
-
-| Component | Location | Purpose |
-| --- | --- | --- |
-| **Scripts & Data** | `/home/$USER/pp/` | Permanent storage for code and research results. |
-| **Python Env** | `/scratch/$USER/persona_env/` | The "toolbox" (Python 3.10, LangChain). |
-| **LLM Models** | `/scratch/$USER/ollama_models/` | Storage for heavy model weights (Llama 3, etc.). |
-
----
-
-## 🔧 Troubleshooting
-
-* **`EnvironmentLocationNotFound`**: This usually means the folder was deleted or created with `venv` instead of `conda`. Re-run `./setup_research.sh`.
-* **`ModuleNotFoundError`**: Ensure you have run `start_persona` before executing your Python scripts.
-* **Ollama Connection**: Ensure the Ollama server is running in the background (`ollama serve &`) before running evaluations.
-
-**Now the system uses OPP-115 dataset, please download it by yourself.**
+python main.py --trials 30 --seed 7
