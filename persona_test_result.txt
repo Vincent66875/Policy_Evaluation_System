@@ -1,0 +1,546 @@
+
+--- Testing Persona: Human_Avg ---
+Trial 1
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 85
+Support: {"A": 85, "B": 75, "C": 20, "D": 10}
+----------------------------------------
+Trial 2
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 75, "C": 30, "D": 10}
+----------------------------------------
+Trial 3
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 75, "C": 30, "D": 10}
+----------------------------------------
+Trial 4
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 50, "D": 20}
+----------------------------------------
+Trial 5
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 50, "D": 10}
+----------------------------------------
+Trial 6
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 10}
+----------------------------------------
+Trial 7
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 10, "D": 20}
+----------------------------------------
+Trial 8
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 80, "C": 50, "D": 20}
+----------------------------------------
+Trial 9
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 10}
+----------------------------------------
+Trial 10
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 30}
+----------------------------------------
+Trial 11
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 10}
+----------------------------------------
+Trial 12
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 50, "D": 20}
+----------------------------------------
+Trial 13
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 10}
+----------------------------------------
+Trial 14
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 10}
+----------------------------------------
+Trial 15
+Answer: ['A', 'C'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy does not support outsourcing supervision, so this should not be chosen.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 50, "D": 20}
+----------------------------------------
+Trial 16
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 50, "D": 20}
+----------------------------------------
+Trial 17
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 30, "D": 20}
+----------------------------------------
+Trial 18
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 10, "D": 30}
+----------------------------------------
+Trial 19
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 30, "D": 10}
+----------------------------------------
+Trial 20
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 50, "D": 20}
+----------------------------------------
+Trial 21
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 10}
+----------------------------------------
+Trial 22
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 10}
+----------------------------------------
+Trial 23
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 75
+Support: {"A": 75, "B": 50, "C": 10, "D": 20}
+----------------------------------------
+Trial 24
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 10, "D": 20}
+----------------------------------------
+Trial 25
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 70
+Support: {"A": 70, "B": 60, "C": 30, "D": 10}
+----------------------------------------
+Trial 26
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 10, "D": 10}
+----------------------------------------
+Trial 27
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 30, "D": 20}
+----------------------------------------
+Trial 28
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 20, "D": 50}
+----------------------------------------
+Trial 29
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 75, "C": 10, "D": 5}
+----------------------------------------
+Trial 30
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 70, "C": 30, "D": 20}
+----------------------------------------
+
+--- Testing Persona: Expert ---
+Trial 1
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 2
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 3
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 4
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 5
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 6
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 10, "D": 20}
+----------------------------------------
+Trial 7
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 8
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 9
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 90, "B": 85, "C": 10, "D": 5}
+----------------------------------------
+Trial 10
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 50, "D": 10}
+----------------------------------------
+Trial 11
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 12
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 13
+Answer: ['A', 'B', 'C'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification. The policy does not support outsourcing supervision, so this should not be chosen.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 14
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 95
+Support: {"A": 90, "B": 95, "C": 10, "D": 5}
+----------------------------------------
+Trial 15
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 16
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 17
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 50, "D": 10}
+----------------------------------------
+Trial 18
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 10, "D": 20}
+----------------------------------------
+Trial 19
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 20
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 21
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 10, "D": 5}
+----------------------------------------
+Trial 22
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 23
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 50, "D": 10}
+----------------------------------------
+Trial 24
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 25
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 26
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 27
+Answer: ['A', 'B', 'C'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification. The policy does not support outsourcing supervision, so this should not be chosen.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 50, "D": 10}
+----------------------------------------
+Trial 28
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 50, "D": 10}
+----------------------------------------
+Trial 29
+Answer: ['A', 'B', 'C'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification. The policy does not support outsourcing supervision, so this should not be chosen.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+Trial 30
+Answer: ['A', 'B'] | Correct: True
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices. The policy mentions maintaining a security certification, which this reader treats as an external certification.
+Confidence: 90
+Support: {"A": 80, "B": 90, "C": 20, "D": 10}
+----------------------------------------
+
+--- Testing Persona: Non_Expert_Seniors ---
+Trial 1
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 40}
+----------------------------------------
+Trial 2
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 50}
+----------------------------------------
+Trial 3
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 50}
+----------------------------------------
+Trial 4
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 75
+Support: {"A": 75, "B": 50, "C": 25, "D": 60}
+----------------------------------------
+Trial 5
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 70}
+----------------------------------------
+Trial 6
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 30, "D": 60}
+----------------------------------------
+Trial 7
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 50, "D": 70}
+----------------------------------------
+Trial 8
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 30, "D": 70}
+----------------------------------------
+Trial 9
+Answer: ['D'] | Correct: False
+Reasoning: The wording feels incomplete or uncertain from this reader's perspective, so the policy does not feel fully determined.
+Confidence: 50
+Support: {"A": 80, "B": 60, "C": 40, "D": 50}
+----------------------------------------
+Trial 10
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 40, "D": 50}
+----------------------------------------
+Trial 11
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 30, "D": 50}
+----------------------------------------
+Trial 12
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 85
+Support: {"A": 85, "B": 60, "C": 50, "D": 70}
+----------------------------------------
+Trial 13
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 40, "D": 30}
+----------------------------------------
+Trial 14
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 50, "D": 30}
+----------------------------------------
+Trial 15
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 30, "D": 50}
+----------------------------------------
+Trial 16
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 70, "C": 50, "D": 40}
+----------------------------------------
+Trial 17
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 20, "D": 40}
+----------------------------------------
+Trial 18
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 20, "D": 50}
+----------------------------------------
+Trial 19
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 20}
+----------------------------------------
+Trial 20
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 20, "D": 50}
+----------------------------------------
+Trial 21
+Answer: ['D'] | Correct: False
+Reasoning: The wording feels incomplete or uncertain from this reader's perspective, so the policy does not feel fully determined.
+Confidence: 50
+Support: {"A": 80, "B": 60, "C": 30, "D": 50}
+----------------------------------------
+Trial 22
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 20}
+----------------------------------------
+Trial 23
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 60, "C": 30, "D": 50}
+----------------------------------------
+Trial 24
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 50, "D": 70}
+----------------------------------------
+Trial 25
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 90
+Support: {"A": 90, "B": 75, "C": 20, "D": 50}
+----------------------------------------
+Trial 26
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 50, "C": 20, "D": 60}
+----------------------------------------
+Trial 27
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 50}
+----------------------------------------
+Trial 28
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 70}
+----------------------------------------
+Trial 29
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 60, "C": 40, "D": 70}
+----------------------------------------
+Trial 30
+Answer: ['A'] | Correct: False
+Reasoning: The policy clearly mentions measures to prevent loss or theft of devices.
+Confidence: 80
+Support: {"A": 80, "B": 50, "C": 20, "D": 60}
+----------------------------------------
